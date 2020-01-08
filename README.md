@@ -1,5 +1,24 @@
 # Computational Mechanics
 
+Welcome to Computational Mechanics.  
+
+This project is a collection of learning modules in engineering computations for
+undergraduate students. These materials are a combination of work from [Prof.
+Ryan C. Cooper](https://ryan-c-cooper.uconn.edu) at the University of
+Connecticut Mechanical Engineering Department and the [Engineering Computations
+Modules](https://github.com/engineersCode/EngComp) from Prof. Lorena A.  Barba
+doctoral student Natalia C. Clement at the George Washington University,
+Mechanical and Aerospace Engineering Department. 
+
+Each learning modules is made up of three or four lessons, written as a Jupyter
+notebooks. We address an area of application or skills in computing. We use
+Python as the programming language.
+
+The overall goal of the course is learn to frame engineering problems as
+computational methods. Once we can communicate our engineering problems to
+Python code (or any other computer language) we can use standardized
+computational methods to solve those problems. 
+
 [CompMech01-Getting
 Started](https://github.uconn.edu/rcc02007/CompMech01-Getting-started)
 

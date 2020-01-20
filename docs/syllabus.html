@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>syllabus</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="computational-mechanics">Computational Mechanics</h1>
+<h2 id="me-3255-spring-2020">ME 3255 Spring 2020</h2>
+<h3 id="github-page-httpsgithub.uconn.edurcc02007computational_mechanics">Github page: <a href="https://github.uconn.edu/rcc02007/Computational_Mechanics/" class="uri">https://github.uconn.edu/rcc02007/Computational_Mechanics/</a></h3>
+<h3 id="jupyterhub-server-httpscompmech.uconn.edu">JupyterHub server: <a href="https://compmech.uconn.edu/" class="uri">https://compmech.uconn.edu/</a></h3>
+<h3 id="course-description">Course Description</h3>
+<p>This course introduces students to computational methods in <a href="https://www.python.org/">Python</a>. Computational methods, best programming practices, and version control are introduced. These methods will be applied to a number of physics-based problems.</p>
+<p>This is a project-based introduction to computational mechanics. There are five modules with exercises, homeworks, and final projects. The overall goal of the course is learn to frame engineering problems as computational methods. Once we can communicate our engineering problems to Python code (or any other computer language) we can use standardized computational methods to solve those problems.</p>
+<h3 id="course-expectations">Course Expectations</h3>
+<p>Students are expected to create numerical approximations for linear and nonlinear problems, understand approximations due to floating point operations and numerical approaches and solve differential equations using numerical differentiation and integration. Students are also expected to learn basics of git version control, Python functions and programming best practices.</p>
+<p><strong>Lectures</strong>: TTh 9:30-10:45 AM, MCHU rm 301</p>
+<p><strong>Lab times</strong>: TTh 9:30-10:00 AM and 10:15-10:45 AM, EII rm 202</p>
+<p><strong>Instructor</strong>: Prof. Ryan C. Cooper (<a href="mailto:ryan.c.cooper@uconn.edu" class="email">ryan.c.cooper@uconn.edu</a>)</p>
+<p><strong>Office hours</strong>: MW 9:00-11:00 AM in EII rm 314</p>
+<h2 id="teaching-assistants">Teaching Assistants:</h2>
+<ul>
+<li>Graduate: Bhushan Patil <a href="mailto:bhushan.patil@uconn.edu" class="email">bhushan.patil@uconn.edu</a></li>
+<li>Office hours: TBD in EII 202</li>
+</ul>
+<h2 id="course-information">Course Information</h2>
+<p><strong>Prerequisite:</strong> CE 3110, MATH 2410Q</p>
+<p><strong>Tools used:</strong> <a href="https://www.python.org">Python</a>, <a href="https://jupyter.org">Jupyter</a> , <a href="https://rogerdudler.github.io/git-guide/">git</a>, and <a href="https://uconn.github.edu">Github</a></p>
+<p><strong>Required Resources:</strong></p>
+<ul>
+<li><p><a href="https://github.uconn.edu/rcc02007/Computational_Mechanics/">Computational Mechanics</a> materials are a combination of work from <a href="https://ryan-c-cooper.uconn.edu">Prof. Ryan C. Cooper</a> at the University of Connecticut Mechanical Engineering Department and the <a href="https://github.com/engineersCode/EngComp">Engineering Computations Modules</a> from Prof. Lorena A. Barba and doctoral student Natalia C. Clement at the George Washington University, Mechanical and Aerospace Engineering Department.</p></li>
+<li><p><a href="https://compmech.uconn.edu">Jupyter Hub server at compmech.uconn.edu</a> is an interactive Jupyter notebook server. We will use it with Python to run our code, create documentation, and save assignments</p></li>
+<li><p><a href="https://uconn.github.edu">UConn’s Github uconn.github.edu</a> UConn hosts its own server of the popular code-sharing website &lt;github.com&gt;. If you prefer to keep your work private, you can create private repositories and share them with myself and the TA</p></li>
+</ul>
+<p><strong>Minimum Technical Skills:</strong></p>
+<ul>
+<li><p>Ability to follow coding tutorials</p></li>
+<li><p>Comfortable executing code in a prompt</p></li>
+<li><p>Comfortable working in a web browser</p></li>
+<li><p>Draw free body diagram and write equations of motion</p></li>
+<li><p>Draw a control volume and write conservation of energy equations</p></li>
+<li><p>Take derivatives and integrals of functions</p></li>
+</ul>
+<p><strong>Recommended Resources:</strong></p>
+<ul>
+<li><p><a href="https://youtu.be/rkx5_MRAV3A">Youtube: A hands-on Intro to Python for beginning programmers</a></p></li>
+<li><p><a href="https://realpython.com/start-here/">RealPython tutorials, getting started: realpython.com/start-here/</a></p></li>
+<li><p><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet: www.markdownguide.org/cheat-sheet</a></p></li>
+<li><p><em>Python for Everybody: Exploring Data Using Python 3</em> (2016). Charles R. Severance. <a href="http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf">PDF available</a></p></li>
+<li><p><em>Think Python: How to Think Like a Computer Scientist</em> (2012). Allen Downey. Green Tea Press. <a href="http://greenteapress.com/thinkpython/thinkpython.pdf">PDF available</a></p></li>
+</ul>
+<p><strong>Recommended Textbooks:</strong></p>
+<ul>
+<li><p>Chapra, Steven, <em>Applied Numerical Methods with MATLAB for Engineers and Scientists</em> 4th edition.</p></li>
+<li><p>Kiusalaas, Jaan, <em>Numerical Methods in Engineering with Python 3</em> Cambridge University Press (2013).</p></li>
+</ul>
+<h2 id="grading">Grading</h2>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 7%" />
+<col style="width: 69%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Percent</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Participation</td>
+<td>30 %</td>
+<td>Complete the notebook exercises and discussion questions</td>
+</tr>
+<tr class="even">
+<td>Homework</td>
+<td>30 %</td>
+<td>Complete the end-of-notebook problems</td>
+</tr>
+<tr class="odd">
+<td>Projects</td>
+<td>40 %</td>
+<td>Complete the module project and submit to Github</td>
+</tr>
+</tbody>
+</table>
+<h3 id="note-on-participation">Note on Participation</h3>
+<p>You will have 30 minutes twice a week to work in the computer lab with me. I expect you to come to the lab with exercises and discussions complete. For the exercises/discussions that you have questions, I expect you to prepare some questions to help me help you understand the material. You will submit a pdf of your completed notebook at the end of the lab session time.</p>
+<h3 id="note-on-homeworks">Note on Homeworks</h3>
+<p>The homework assignments are the problem sets at the end of each notebook. You do not have to complete these during the lab session time. They will be due before the next lab.</p>
+<h2 id="academic-integrity">Academic Integrity:</h2>
+<ul>
+<li>The instructors of this class have a zero-tolerance policy for academic misconduct, that is copying others’ work either in the lab, field, or on an exam. Any student work that is found to be in violation of the university policy regarding academic misconduct will be assigned a grade of zero at a minimum.</li>
+<li>Read and understand <a href="http://www.community.uconn.edu/student_code.html" title="The Student Code for Academic Integrity">The UConn Student Code of Conduct</a>. Students will follow all University regulations concerning the final exam.</li>
+</ul>
+<h2 id="course-schedule-which-is-subject-to-change-based-upon-feedback-and-pace-of-course">Course Schedule (which is subject to change based upon feedback and pace of course)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Subject/Notebook</th>
+<th>Module</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tue (01-21)</td>
+<td>Welcome!</td>
+<td><strong>Lecture</strong></td>
+</tr>
+<tr class="even">
+<td>Thu (01-23)</td>
+<td>01_Interacting_with_Python</td>
+<td>Getting-Started</td>
+</tr>
+<tr class="odd">
+<td>Tue (01-28)</td>
+<td>02_Working_with_Python</td>
+<td>Getting-Started</td>
+</tr>
+<tr class="even">
+<td>Thu (01-30)</td>
+<td>03_Numerical_error</td>
+<td>Getting-Started</td>
+</tr>
+<tr class="odd">
+<td>Tue (02-04)</td>
+<td>Module 1 Project</td>
+<td>Review and submit</td>
+</tr>
+<tr class="even">
+<td>Thu (02-06)</td>
+<td>meet MCHU 301-Review</td>
+<td><strong>Lecture</strong></td>
+</tr>
+<tr class="odd">
+<td>Tue (02-11)</td>
+<td>01_Cheers_Stats_Beers</td>
+<td>Analyze Data</td>
+</tr>
+<tr class="even">
+<td>Thu (02-13)</td>
+<td>02_Seeing_Stats</td>
+<td>Analyze Data</td>
+</tr>
+<tr class="odd">
+<td>Tue (02-18)</td>
+<td>03_Linear_Regression_with_Real_Data</td>
+<td>Analyze Data</td>
+</tr>
+<tr class="even">
+<td>Thu (02-20)</td>
+<td>04_Stats_and_Montecarlo</td>
+<td>Analyze Data</td>
+</tr>
+<tr class="odd">
+<td>Tue (02-25)</td>
+<td>module 2 Project</td>
+<td>Review and submit</td>
+</tr>
+<tr class="even">
+<td>Thu (02-27)</td>
+<td>01_Catch_Motion</td>
+<td>Initial Value Problems</td>
+</tr>
+<tr class="odd">
+<td>Tue (03-03)</td>
+<td>02_Step_Future</td>
+<td>Initial Value Problems</td>
+</tr>
+<tr class="even">
+<td>Thu (03-05)</td>
+<td>03_Get_Oscillations</td>
+<td>Initial Value Problems</td>
+</tr>
+<tr class="odd">
+<td>Tue (03-10)</td>
+<td>04_Shooting_solutions</td>
+<td>Initial Value Problems</td>
+</tr>
+<tr class="even">
+<td>Thu (03-12)</td>
+<td>Module 3 Project</td>
+<td>Review and submit</td>
+</tr>
+<tr class="odd">
+<td>Tue (03-17)</td>
+<td>Spring Break!!</td>
+<td>R&amp;R</td>
+</tr>
+<tr class="even">
+<td>Thu (03-19)</td>
+<td>Spring Break!!</td>
+<td>R&amp;R</td>
+</tr>
+<tr class="odd">
+<td>Tue (03-24)</td>
+<td>meet MCHU 301-Review</td>
+<td><strong>Lecture</strong></td>
+</tr>
+<tr class="even">
+<td>Thu (03-26)</td>
+<td>01_Solving_equations</td>
+<td>Linear Algebra</td>
+</tr>
+<tr class="odd">
+<td>Tue (03-31)</td>
+<td>02_Gauss_elimination</td>
+<td>Linear Algebra</td>
+</tr>
+<tr class="even">
+<td>Thu (04-02)</td>
+<td>03_Linear_regression_revisited</td>
+<td>Linear Algebra</td>
+</tr>
+<tr class="odd">
+<td>Tue (04-07)</td>
+<td>Catch-up day</td>
+<td>Linear Algebra</td>
+</tr>
+<tr class="even">
+<td>Thu (04-09)</td>
+<td>Module 4 project</td>
+<td>Review and Submit</td>
+</tr>
+<tr class="odd">
+<td>Tue (04-14)</td>
+<td>01_Finite_differences</td>
+<td>Boundary Value Problems</td>
+</tr>
+<tr class="even">
+<td>Thu (04-16)</td>
+<td>02_Solutions_in_1D</td>
+<td>Boundary Value Problems</td>
+</tr>
+<tr class="odd">
+<td>Tue (04-21)</td>
+<td>03_Solutions_in_2D</td>
+<td>Boundary Value Problems</td>
+</tr>
+<tr class="even">
+<td>Thu (04-23)</td>
+<td>Catch-up day</td>
+<td>Boundary Value Problems</td>
+</tr>
+<tr class="odd">
+<td>Tue (04-28)</td>
+<td>Review course material</td>
+<td><strong>Lecture</strong></td>
+</tr>
+<tr class="even">
+<td>Thu (04-30)</td>
+<td>Module 5 project</td>
+<td>Review and Submit</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

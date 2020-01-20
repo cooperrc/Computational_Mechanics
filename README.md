@@ -22,6 +22,8 @@ computational methods to solve those problems.
 
 [View the Syllabus](./syllabus.html)
 
+[Print the Syllabus](./me3255S2020_syllabus.pdf)
+
 [CompMech01-Getting
 Started](https://github.uconn.edu/rcc02007/CompMech01-Getting-started)
 
